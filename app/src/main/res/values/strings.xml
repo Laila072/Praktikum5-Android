@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Praktikum</string>
+    <string name="nama">Nama</string>
+    <string name="nama_anda">Nama Anda</string>
+    <string name="email">Email</string>
+    <string name="email_valid">Email Valid</string>
+    <string name="no_handphone">No Handphone</string>
+    <string name="tanggal_lahir">Tanggal lahir</string>
+    <string name="jarak_km">jarak(Km)</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="no_handphone_anda">No Handphone Anda</string>
+    <string name="tanggal_lahir_anda">Tanggal Lahir Anda</string>
+    <string name="isi_jarak">Isi Jarak</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:text="@string/nama" />
+
+    <EditText
+        android:id="@+id/namaEditText"
+        android:layout_width="442dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/nama_anda"
+        />
+
+    <TextView
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="442dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_valid"
+        />
+
+    <TextView
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:text="@string/no_handphone" />
+
+    <EditText
+        android:id="@+id/noHandphoneEditText"
+        android:layout_width="442dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/no_handphone_anda"
+        />
+
+    <TextView
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:text="@string/tanggal_lahir" />
+
+    <EditText
+        android:id="@+id/tanggalLahirEditText"
+        android:layout_width="442dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="@string/tanggal_lahir_anda"
+        />
+
+    <TextView
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:text="@string/jarak_km" />
+
+    <EditText
+        android:id="@+id/jarakEditText"
+        android:layout_width="442dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/isi_jarak"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/simpanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/success"
+            android:text="@string/simpan"
+            android:layout_marginEnd="8dp"
+            android:drawableLeft="@drawable/ic_baseline_save_24"
+            />
+        <Button
+            android:id="@+id/batalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/danger"
+            android:text="@string/batal"
+            android:drawableLeft="@drawable/ic_baseline_cancel_24"
+            />
+
+    </LinearLayout>
+</LinearLayout>
