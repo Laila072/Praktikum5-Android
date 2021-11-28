@@ -71,6 +71,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:hint="@string/isi_jarak"
+        android:text="0"
         />
 
     <LinearLayout
